@@ -1,0 +1,14 @@
+{
+  "name": "performance",
+  "version": "0.0.1",
+  "description": "Performance tricks for the Advanced Node Concepts class on Udemy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shawn Baugh II",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
