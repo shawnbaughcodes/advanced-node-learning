@@ -10,6 +10,7 @@ require('./models/Blog');
 require('./services/passport');
 
 mongoose.Promise = global.Promise;
+
 mongoose.connect(keys.mongoURI, { useMongoClient: true });
 
 const app = express();
@@ -36,7 +37,7 @@ if (['production'].includes(process.env.NODE_ENV)) {
   });
 }
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 6000;
 app.listen(PORT, () => {
   console.log(`Listening on port`, PORT);
 });
